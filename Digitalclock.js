@@ -7,16 +7,5 @@ let s=  d.getSeconds();
   setTimeout(GetTime,1000);
 }
 
-// function Getdate(){
-//   let a= new Date();  
-//   let t= a.getDate();
-//   let x=a.getMonth();
-//   let y=a.getFullYear();
-//   document.getElementById("clock").innerHTML=t+"/"+x+"/"+y;
-// setTimeout(Getdate,1000);
-// }
-// function CallFunction(){
+
 GetTime();
-// Getdate();
-// }
-// CallFunction();
