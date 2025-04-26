@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word counter</title>
+    <style>
+        body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(235, 222, 247);
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 5px;
+}
+
+#wordCount {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Word Counter!</h2>
+    <textarea id="textInput" oninput="countWords()" placeholder="Type here..."></textarea>
+    <p>Word Count: <span id="wordCount">0</span></p>
+    <script src="wcount.js"></script>
+</body>
+</html>
